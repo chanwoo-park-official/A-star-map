@@ -4,7 +4,6 @@ clc; clear all;
 % PARAMETERS TO BE TUNED
 N       = 5;  
 L       = 1;
-%l       = 3;   %want l th energy and l+1 th energy comparison
 % END OF TUNABLE ZONE
 verbose = 0;
 gk       = zeros(N+2,N+1); % each column is a g_i: gk = [g_0 g_1 ... g_{N}]
